@@ -1,0 +1,102 @@
+/* Theme 9 ----------------------------------------------------------------- */
+
+.ce-countdown--theme-9 {
+	background-color: red; 
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 0;
+	font-weight: 700;
+	max-width: none;
+	padding: 50px 30px;
+	text-align: center;
+}
+
+.ce-countdown--theme-9 .ce-circle {
+	display: inline-block;
+	margin: -20px;
+	position: relative;
+	vertical-align: top;
+}
+
+.ce-countdown--theme-9 canvas {
+	display: inline-block;
+	height: 204px;
+	width: 204px;
+}
+
+.ce-countdown--theme-9 .ce-circle__values {
+	height: 70px;
+	margin-top: -35px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.ce-countdown--theme-9 .ce-digit,
+.ce-countdown--theme-9 .ce-label  {
+	display: block;
+	line-height: 1;
+}
+
+.ce-countdown--theme-9 .ce-digit  {
+	display: block;
+	font-size: 40px;
+}
+
+.ce-countdown--theme-9 .ce-label  {
+	color: #929292;
+	display: block;
+	font-size: 15px;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+@media all and (max-width: 900px) {
+	.ce-countdown--theme-9 canvas {
+		height: 164px;
+		width: 164px;
+	}
+
+	.ce-countdown--theme-9 .ce-digit  {
+		font-size: 35px;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.ce-countdown--theme-9 .ce-circle {
+		margin: -30px;
+		display: block;
+	}
+
+	.ce-countdown--theme-9 canvas {
+		height: 134px;
+		width: 134px;
+	}
+
+	.ce-countdown--theme-9 .ce-circle__values {
+		margin-top: -30px;
+	}
+
+	.ce-countdown--theme-9 .ce-digit  {
+		font-size: 30px;
+	}
+
+	.ce-countdown--theme-9 .ce-label  {
+		font-size: 12px;
+		margin-top: 8px;
+	}
+}
+
+
+
+/* Clearfix ---------------------------------------------------------------- */
+
+.ce-clearfix:before,
+.ce-clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.ce-clearfix:after {
+	clear: both;
+}

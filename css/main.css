@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700');
+@import "reset.css";
+
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 5px;   
+    height: 100vh;
+    width: 100vw;
+}
+
+.header-header {
+	display: grid;
+	grid-column: 1 / -1;
+	background: #336699;
+	justify-content: center;
+}
+
+.header-title {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 20px;
+}
+
+.header-title .lancair-logo, 
+.header-title h1 {
+	display: grid;
+	align-content: center;
+}
+
+.header-title h1 {
+	color: #fff;
+	font-family: 'Anton', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 1em;
+	padding: 35px 0;
+}
+
+.header-title .lancair-logo img {
+    padding-bottom: 15px;
+}
+
+.event {
+	display: grid;
+	grid-template-columns: 250px 4fr 3fr;
+}
+
+.event-logo {
+	display: grid;
+	grid-column: 1 / 2;
+	justify-content: center;
+	align-content: center;
+}
+
+.event-info {
+	display: grid;
+	grid-column: 2 / 3;
+	justify-content: center;
+	align-content: center;
+	color: #fff;
+}
+
+.event h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	line-height: 1em;
+}
+
+.event p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	font-weight: 400;
+}
+
+.event-timer {
+	display: grid;
+	grid-column: 3 / -1;
+	justify-content: center;
+}
+
+.event-timer-container {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+
+.event1 {background: #c91001;}
+.event2 {background: #ffd24f;}
+.event3 {background: #0066ff;}
+.event4 {background: #ff0033;}
+.event5 {background: #666;}
+
+
+
+/* COUNTDOWN TIMER STYLES */
+
+/* Theme 9 ----------------------------------------------------------------- */
+
+.ce-countdown--theme-9 {
+	background-color: red; 
+	color: #fff;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	padding: 0;
+	text-align: center;
+}
+
+.ce-countdown--theme-9 .ce-circle {
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	vertical-align: top;
+}
+
+.ce-countdown--theme-9 canvas {
+	display: inline-block;
+	height: 140px;
+	width: 140px;
+}
+
+.ce-countdown--theme-9 .ce-circle__values {
+	margin-top: -35px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+.ce-countdown--theme-9 .ce-digit,
+.ce-countdown--theme-9 .ce-label  {
+	display: block;
+	line-height: 1;
+}
+
+.ce-countdown--theme-9 .ce-digit  {
+	display: block;
+	font-size: 50px;
+}
+
+.ce-countdown--theme-9 .ce-label  {
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+@media all and (max-width: 900px) {
+	.ce-countdown--theme-9 canvas {
+		height: 164px;
+		width: 164px;
+	}
+
+	.ce-countdown--theme-9 .ce-digit  {
+		font-size: 35px;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.ce-countdown--theme-9 .ce-circle {
+		margin: -30px;
+		display: block;
+	}
+
+	.ce-countdown--theme-9 canvas {
+		height: 134px;
+		width: 134px;
+	}
+
+	.ce-countdown--theme-9 .ce-circle__values {
+		margin-top: -30px;
+	}
+
+	.ce-countdown--theme-9 .ce-digit  {
+		font-size: 30px;
+	}
+
+	.ce-countdown--theme-9 .ce-label  {
+		font-size: 12px;
+	}
+}
