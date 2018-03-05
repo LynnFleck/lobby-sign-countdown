@@ -101,7 +101,7 @@
 
 /* Theme 9 ----------------------------------------------------------------- */
 
-.ce-countdown--theme-9 {
+.ce-countdown {
 	color: #fff;
 	font-family: 'Montserrat';
 	font-weight: 700;
@@ -109,38 +109,38 @@
 	text-align: center;
 }
 
-.ce-countdown--theme-9 .ce-circle {
+.ce-countdown .ce-circle {
 	display: inline-block;
 	margin: 0;
 	position: relative;
 	vertical-align: top;
 }
 
-.ce-countdown--theme-9 canvas {
+.ce-countdown canvas {
 	display: inline-block;
 	height: 140px;
 	width: 140px;
 }
 
-.ce-countdown--theme-9 .ce-circle__values {
+.ce-countdown .ce-circle__values {
 	margin-top: -35px;
 	position: absolute;
 	top: 50%;
 	width: 100%;
 }
 
-.ce-countdown--theme-9 .ce-digit,
-.ce-countdown--theme-9 .ce-label  {
+.ce-countdown .ce-digit,
+.ce-countdown .ce-label  {
 	display: block;
 	line-height: 1;
 }
 
-.ce-countdown--theme-9 .ce-digit  {
+.ce-countdown .ce-digit  {
 	display: block;
 	font-size: 50px;
 }
 
-.ce-countdown--theme-9 .ce-label  {
+.ce-countdown .ce-label  {
 	color: #fff;
 	display: block;
 	font-size: 14px;
@@ -149,36 +149,36 @@
 }
 
 @media all and (max-width: 900px) {
-	.ce-countdown--theme-9 canvas {
+	.ce-countdown canvas {
 		height: 164px;
 		width: 164px;
 	}
 
-	.ce-countdown--theme-9 .ce-digit  {
+	.ce-countdown .ce-digit  {
 		font-size: 35px;
 	}
 }
 
 @media all and (max-width: 400px) {
-	.ce-countdown--theme-9 .ce-circle {
+	.ce-countdown .ce-circle {
 		margin: -30px;
 		display: block;
 	}
 
-	.ce-countdown--theme-9 canvas {
+	.ce-countdown canvas {
 		height: 134px;
 		width: 134px;
 	}
 
-	.ce-countdown--theme-9 .ce-circle__values {
+	.ce-countdown .ce-circle__values {
 		margin-top: -30px;
 	}
 
-	.ce-countdown--theme-9 .ce-digit  {
+	.ce-countdown .ce-digit  {
 		font-size: 30px;
 	}
 
-	.ce-countdown--theme-9 .ce-label  {
+	.ce-countdown .ce-label  {
 		font-size: 12px;
 	}
 }
