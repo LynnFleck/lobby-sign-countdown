@@ -28,6 +28,12 @@
 	display: grid;
 	align-content: center;
 }
+@media screen and (max-width: 400px) {
+	.header-title .lancair-logo, 
+	.header-title h1 {
+		grid-column: 1 / -1;
+	}
+}
 
 .header-title h1 {
 	color: #fff;
@@ -57,9 +63,10 @@
 .event-info {
 	display: grid;
 	grid-column: 2 / 3;
-	justify-content: center;
+	justify-content: left;
 	align-content: center;
 	color: #fff;
+	padding-left: 60px;
 }
 
 .event2 .event-info {
