@@ -9,111 +9,175 @@
 	],
 "creatorBuild": "26330",
 "files": {
-	"\/css\/main-min.css": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/build\/.gitignore",
+		"oF": 1
+		},
+	"\/source\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/main-min-min.css",
-		"oF": 0,
+		"oAP": "\/build\/css\/main-min.css",
+		"oF": 1,
 		"oS": 3
 		},
-	"\/css\/main.css": {
+	"\/source\/css\/reset.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/main-min.css",
-		"oF": 0,
+		"oA": 1,
+		"oAP": "\/build\/css\/reset-min.css",
+		"oF": 1,
 		"oS": 3
 		},
-	"\/css\/other-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/source\/images\/aopa_flyin_logo.png": {
+		"ft": 32768,
+		"iS": 4755,
 		"oA": 0,
-		"oAP": "\/css\/other-min-min.css",
+		"oAP": "\/build\/images\/aopa_flyin_logo.png",
 		"oF": 0,
-		"oS": 3
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
-	"\/css\/timer.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/source\/images\/Dee_Howard_logo.png": {
+		"ft": 32768,
+		"iS": 29707,
 		"oA": 0,
-		"oAP": "\/css\/timer-min.css",
+		"oAP": "\/build\/images\/Dee_Howard_logo.png",
 		"oF": 0,
-		"oS": 3
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
-	"\/js\/main.js": {
+	"\/source\/images\/EAA_logo.png": {
+		"ft": 32768,
+		"iS": 7755,
+		"oA": 0,
+		"oAP": "\/build\/images\/EAA_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/images\/Lancair_logo_original.png": {
+		"ft": 32768,
+		"iS": 7386,
+		"oA": 0,
+		"oAP": "\/build\/images\/Lancair_logo_original.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/images\/Reno_Air_Races_logo.png": {
+		"ft": 32768,
+		"iS": 32701,
+		"oA": 0,
+		"oAP": "\/build\/images\/Reno_Air_Races_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/images\/SunNFun_logo.png": {
+		"ft": 32768,
+		"iS": 29349,
+		"oA": 0,
+		"oAP": "\/build\/images\/SunNFun_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/js\/main.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/main-min.js",
+		"oAP": "\/build\/js\/main-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/timer-min.js": {
+	"\/source\/js\/vendor\/jquery-3.2.1.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/timer-min-min.js",
+		"oA": 1,
+		"oAP": "\/build\/js\/vendor\/jquery-3.2.1.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/js\/timer.js": {
+	"\/source\/js\/vendor\/jquery.counteverest.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/timer-min.js",
+		"oA": 1,
+		"oAP": "\/build\/js\/vendor\/jquery.counteverest-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/lobbyTimers.html": {
+	"\/source\/lobbyTimers.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/lobbyTimers.html",
+		"oAP": "\/build\/lobbyTimers.html",
 		"oF": 0
 		},
-	"\/node_modules": {
+	"\/source\/node_modules": {
 		"ft": 65536,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/build\/node_modules",
-		"oF": 0
+		"oF": 1
 		},
-	"\/package-lock.json": {
+	"\/source\/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-lock-min.json",
+		"oAP": "\/build\/package-lock-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/package.json": {
+	"\/source\/package.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/package-min.json",
-		"oF": 0,
+		"oAP": "\/build\/package-min.json",
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/timers.html": {
+	"\/source\/README.md": {
 		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/timers.html",
-		"oF": 0
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/build\/README.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
@@ -122,9 +186,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 541551326,
-	"displayValue": "lancair_LOBBY_sign",
+	"displayValue": "lobby-sign-countdown",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-confusedBaby"
+	"iconImageName": "meme-confusedBaby",
+	"lastBuiltDate": 542050429
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -380,7 +445,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
+	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -2276,7 +2341,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/build"
 	},
 "settingsFileVersion": "3"
 }

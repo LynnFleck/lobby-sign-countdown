@@ -1,3 +1,5 @@
+// @codekit-prepend "vendor/jquery-3.2.1.min.js", "vendor/jquery.counteverest.js";
+
 $(document).ready(function() {
 	$('.ce-countdown-1').countEverest({
 		// Set your target date here!

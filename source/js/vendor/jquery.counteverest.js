@@ -5,7 +5,7 @@
  * @author    Patrick Baber <support@anacoda.de>
  * @see       https://counteverest.anacoda.de
  */
-;
+
 (function ($, window, document, undefined) {
 	'use strict';
 
