@@ -1,9 +1,3 @@
-// c91001 red
-// ffcc00 yellow
-// 0066ff blue
-// 99cc33 green
-// 999999 gray
-
 $(document).ready(function() {
 	$('.ce-countdown-1').countEverest({
 		// Set your target date here!
